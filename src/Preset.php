@@ -2,7 +2,6 @@
 
 namespace eCreeth\WavesPreset;
 
-use Storage;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 use Illuminate\Foundation\Console\Presets\Preset as BasePreset;
@@ -36,7 +35,6 @@ class Preset extends BasePreset
       '@babel/preset-react' => '^7.0.0',
       'react' => '^16.8.6',
       'react-dom' => '^16.8.6',
-      "antd" => "^3.19.1",
       'tailwindcss' => '^1.0.1',
       'styled-components' => '^4.2.0',
       'babel-plugin-styled-components' => '^1.10.0',

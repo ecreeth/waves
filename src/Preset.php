@@ -37,12 +37,11 @@ class Preset extends BasePreset
       'react' => '^16.8.6',
       'react-dom' => '^16.8.6',
       "antd" => "^3.19.1",
-      "babel-plugin-import" => "^1.11.2",
       'tailwindcss' => '^1.0.1',
       'styled-components' => '^4.2.0',
       'babel-plugin-styled-components' => '^1.10.0',
       'prop-types' => '^15.7.2',
-    ] + Arr::except($packages, ['vue', 'vue-template-compiler', 'jquery', 'bootstrap', 'popper.js']);
+    ] + Arr::except($packages, ['vue', 'vue-template-compiler', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
   }
 
   /**

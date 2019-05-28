@@ -28,5 +28,5 @@ mix
       },
     },
   }).babelConfig({
-   plugins: ['babel-plugin-styled-components', ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]],
+   plugins: ['babel-plugin-styled-components'],
 });

@@ -26,12 +26,3 @@ export default function App() {
 if (document.getElementById('example')) {
     render(<App />, document.getElementById('example'));
 }
-
-// const containers = document.querySelectorAll("[react-component]");
-
-// containers.forEach((container) => {
-//   const Component = require('./components/' + container.getAttribute('react-component')).default;
-
-//   render(<Component />, container);
-// });
-

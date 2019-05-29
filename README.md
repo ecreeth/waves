@@ -5,7 +5,7 @@ This scaffolding structure is being used at the front-end in eCreeth.
 All `.blade` files have been stylized with tailwindcss, they were taken from [@michaeldyrynda](https://github.com/laravel-frontend-presets/tailwindcss)
 
 #### A basic structure of files
-- resources/views
+- `resources/views`
   - `auth`
     - `passwords`
       - email.blade.php
@@ -16,10 +16,14 @@ All `.blade` files have been stylized with tailwindcss, they were taken from [@m
   - `layouts`
     - master.blade.php
   - index.blade.php
-- tailwind.config.js
-- webpack.mix.js
-- app.js
-- bootstrap.js
+  
+- `resources/js`
+  - app.js
+  - bootstrap.js
+  
+- `root`
+  - tailwind.config.js
+  - webpack.mix.js
 ## Packages
 - `@babel/preset-react`
 - `react`
@@ -34,7 +38,10 @@ All `.blade` files have been stylized with tailwindcss, they were taken from [@m
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
-
 
 ## Installation
+```bash
+composer require ecreeth/waves
+```
+## Usage
+Then run `php artisan make:auth` & `php artisan preset waves`

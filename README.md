@@ -1,9 +1,34 @@
-# Laravel 5.5+ Front-End Preset for React
+# Laravel Front-end preset for React, Tailwindcss & Styled Components 
 
-Preset for React scaffolding on new Laravel 5.5+ project providing the technology
-stack currently and folder structure being used at the FrontEnd Team in TektonLabs.
+This scaffolding structure is being used at the front-end in eCreeth.
 
-*Current version*: **React 16.2** + **Styled Components 3.1**
+All `.blade` files have been stylized with tailwindcss, they were taken from [@michaeldyrynda](https://github.com/laravel-frontend-presets/tailwindcss)
+
+#### A basic structure of files
+- resources/views
+  - `auth`
+    - `passwords`
+      - email.blade.php
+      - reset.blade.php
+    - login.blade.php
+    - register.blade.php 
+    - verify.blade.php
+  - `layouts`
+    - master.blade.php
+  - index.blade.php
+- tailwind.config.js
+- webpack.mix.js
+- app.js
+- bootstrap.js
+## Packages
+- `@babel/preset-react`
+- `react`
+- `react-dom`
+- `tailwindcss`
+- `styled-components`
+- `babel-plugin-styled-components`
+- `prop-types`
+- `laravel-mix-purgecss`
 
 ## Contents
 

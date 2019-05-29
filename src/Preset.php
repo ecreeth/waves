@@ -39,6 +39,7 @@ class Preset extends BasePreset
       'styled-components' => '^4.2.0',
       'babel-plugin-styled-components' => '^1.10.0',
       'prop-types' => '^15.7.2',
+      "laravel-mix-purgecss" => "^4.1.0"
     ] + Arr::except($packages, ['vue', 'vue-template-compiler', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
   }
 

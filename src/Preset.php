@@ -35,7 +35,7 @@ class Preset extends BasePreset
       '@babel/preset-react' => '^7.0.0',
       'react' => '^16.8.6',
       'react-dom' => '^16.8.6',
-      'tailwindcss' => '^1.0.1',
+      'tailwindcss' => '^1.0.2',
       'styled-components' => '^4.2.0',
       'babel-plugin-styled-components' => '^1.10.0',
       'prop-types' => '^15.7.2',

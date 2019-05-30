@@ -4,29 +4,6 @@
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-center">
             <div class="w-full max-w-sm">
-                <div class="flex flex-col break-words bg-white border border-2 rounded shadow-md">
-
-                    <div class="font-semibold bg-gray-200 text-gray-700 py-3 px-6 mb-0">
-                        {{ __('Register') }}
-                    </div>
-
-                    <form class="w-full p-6" method="POST" action="{{ route('register') }}">
-                        @csrf
-
-                        <div class="flex flex-wrap mb-6">
-                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">
-                                {{ __('Name') }}:
-                            </label>
-
-                            <input id="name" type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline{{ $errors->has('name') ? ' border-red-500' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
-
-                            @if ($errors->has('name'))
-@extends('layouts.master')
-
-@section('content')
-    <div class="container mx-auto">
-        <div class="flex flex-wrap justify-center">
-            <div class="w-full max-w-sm">
                 <div class="flex flex-col break-words bg-white rounded shadow-lg">
 
                     <div class="bg-white text-gray-700 text-center font-sans py-3 px-6 mb-0 border-b-2 border-gray-100">

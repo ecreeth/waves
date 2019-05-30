@@ -10,19 +10,13 @@
                 </div>
             @endif
 
-            <div class="flex flex-col break-words bg-white border border-2 rounded shadow-md">
+            <div class="flex flex-col break-words bg-white rounded shadow-lg">
 
-                <div class="font-semibold bg-gray-200 text-gray-700 py-3 px-6 mb-0">
-                    Dashboard
-                </div>
+				<div class="font-semibold bg-white text-gray-700 py-3 px-6 mb-0">
+					Welcome to your awesome project!
+				</div>
 
-                <div id="example"></div>
-
-                <div class="w-full p-6">
-                    <p class="text-gray-700">
-                        You are logged in!
-                    </p>
-                </div>
+				<div id="example"></div>
             </div>
         </div>
     </div>

@@ -7,20 +7,27 @@ require('./bootstrap');
 
 import React from 'react';
 import { render } from 'react-dom';
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
 
 export default function App() {
-    return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+	return (
+		<Wrapper>
+			<Title>
+				Hello World!
+			</Title>
+		</Wrapper>
+	);
 }
 
 if (document.getElementById('example')) {

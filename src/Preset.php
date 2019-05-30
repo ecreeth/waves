@@ -36,7 +36,7 @@ class Preset extends BasePreset
       'react' => '^16.8.6',
       'react-dom' => '^16.8.6',
       'tailwindcss' => '^1.0.2',
-      'styled-components' => '^4.2.0',
+      'styled-components' => '^4.2.1',
       'babel-plugin-styled-components' => '^1.10.0',
       'prop-types' => '^15.7.2',
       "laravel-mix-purgecss" => "^4.1.0"

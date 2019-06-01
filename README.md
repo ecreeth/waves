@@ -45,6 +45,7 @@ composer require ecreeth/waves
 ```
 ## Usage
 Then run 
+- `php artisan make:auth` 
 - `php artisan preset waves`
 - `npm install && npm run dev` or `yarn && yarn run dev`
 

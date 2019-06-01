@@ -21,6 +21,7 @@ class Preset extends BasePreset
     static::updateBootstrapping();
     static::removeNodeModules();
     static::addViews();
+    static::exportRoutes();
   }
 
   /**
@@ -42,6 +43,21 @@ class Preset extends BasePreset
       "laravel-mix-purgecss" => "^4.1.0"
     ] + Arr::except($packages, ['vue', 'vue-template-compiler', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
   }
+
+   /**
+     * Export the authentication routes.
+     *
+     * @return void
+     */
+    protected function exportRoutes()
+    {
+        file_put_contents(
+            base_path('routes/web.php'),
+            'Auth::routes();',
+            FILE_APPEND
+        );
+    }
+
 
   /**
    * Update the Webpack configuration.

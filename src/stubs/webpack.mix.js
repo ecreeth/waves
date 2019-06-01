@@ -22,13 +22,6 @@ mix
     processCssUrls: false,
     postCss: [ tailwindcss('tailwind.config.js') ],
   })
-  .webpackConfig({
-    resolve: {
-      alias: {
-        '@': path.resolve('resources/js'),
-        '~': path.resolve('resources/js/styles'),
-      },
-    },
-  }).babelConfig({
+  .babelConfig({
    plugins: ['babel-plugin-styled-components'],
 });

@@ -49,11 +49,11 @@ class Preset extends BasePreset
      *
      * @return void
      */
-    protected function exportRoutes()
+    protected static function exportRoutes()
     {
         file_put_contents(
             base_path('routes/web.php'),
-            'Auth::routes();',
+            "\n\nAuth::routes();",
             FILE_APPEND
         );
     }

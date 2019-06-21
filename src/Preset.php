@@ -36,12 +36,12 @@ class Preset extends BasePreset
       '@babel/preset-react' => '^7.0.0',
       'react' => '^16.8.6',
       'react-dom' => '^16.8.6',
-      'tailwindcss' => '^1.0.3',
-      'styled-components' => '^4.3.1',
-      'babel-plugin-styled-components' => '^1.10.0',
-      'prop-types' => '^15.7.2',
+      'tailwindcss' => '^1.0.4',
+      '@tailwindcss/custom-forms' => '^0.1.4',
+      'styled-components' => '^4.3.2',
+      'babel-plugin-styled-components' => '^1.10.1',
       "laravel-mix-purgecss" => "^4.1.0"
-    ] + Arr::except($packages, ['vue', 'vue-template-compiler', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
+    ] + Arr::except($packages, ['vue', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
   }
 
    /**

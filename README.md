@@ -30,8 +30,8 @@ All `.blade` files have been stylized with tailwindcss, they were taken from [@m
 - `react-dom`
 - `tailwindcss`
 - `styled-components`
+- `@tailwindcss/custom-forms`
 - `babel-plugin-styled-components`
-- `prop-types`
 - `laravel-mix-purgecss`
 
 ## Contents

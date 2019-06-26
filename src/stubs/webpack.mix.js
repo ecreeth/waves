@@ -20,7 +20,4 @@ mix
   .options({
     processCssUrls: false,
     postCss: [ tailwindcss('tailwind.config.js') ],
-  })
-  .babelConfig({
-   plugins: ['babel-plugin-styled-components'],
-});
+  });

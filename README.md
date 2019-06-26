@@ -3,6 +3,9 @@
 This scaffolding structure is being used at the front-end in eCreeth.
 
 #### A basic structure of files
+
+##### This will remove the `view` directory
+
 - `resources/views`
   - `auth`
     - `passwords`

@@ -1,8 +1,6 @@
-# Laravel Front-end preset for React, Tailwindcss & Styled Components 
+# Laravel Front-end preset for React, Tailwindcss
 
 This scaffolding structure is being used at the front-end in eCreeth.
-
-All `.blade` files have been stylized with tailwindcss, they were taken from [@michaeldyrynda](https://github.com/laravel-frontend-presets/tailwindcss)
 
 #### A basic structure of files
 - `resources/views`
@@ -29,9 +27,7 @@ All `.blade` files have been stylized with tailwindcss, they were taken from [@m
 - `react`
 - `react-dom`
 - `tailwindcss`
-- `styled-components`
 - `@tailwindcss/custom-forms`
-- `babel-plugin-styled-components`
 - `laravel-mix-purgecss`
 
 ## Contents

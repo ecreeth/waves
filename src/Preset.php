@@ -38,8 +38,6 @@ class Preset extends BasePreset
       'react-dom' => '^16.8.6',
       'tailwindcss' => '^1.0.4',
       '@tailwindcss/custom-forms' => '^0.1.4',
-      'styled-components' => '^4.3.2',
-      'babel-plugin-styled-components' => '^1.10.1',
       "laravel-mix-purgecss" => "^4.1.0"
     ] + Arr::except($packages, ['vue', 'jquery', 'bootstrap', 'popper.js', 'lodash']);
   }
